@@ -75,6 +75,7 @@ span {
     padding: 4px 4px;
     position: relative;
     top:40px;
+    cursor: pointer;
 }
 
 #select {
@@ -91,8 +92,9 @@ span {
     background-color: rgb(243, 252, 252) ;
     width: 300px;
     height: 260px;
-    position: absolute;
-    top: 50%;
+    position:fixed;
+    z-index: 1000;
+    top: 30%;
     right: 3%;
     border: solid rgb(243, 252, 252);
     border-radius: 5px;
@@ -126,4 +128,23 @@ span {
     font-weight: bold;
     margin-top: 5em;
     margin-right: 133px;
+}
+
+.clickheart {
+    background-color: rgb(218, 8, 8);
+    transition: .5s;
+    transform: rotateY(360deg);
+}
+
+button {
+    height: 2.4em;
+    width: 6em;
+    background-color: rgb(255, 255, 224);
+    border: solid black .5px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor: pointer;
 }
