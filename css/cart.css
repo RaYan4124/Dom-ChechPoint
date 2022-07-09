@@ -144,7 +144,14 @@ button {
     border-radius: 3px;
     font-size: 14px;
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 75px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.tot-span {
+    position: relative;
+    background-color: transparent;
+    bottom: 45px;
+    left: 140px;
 }
