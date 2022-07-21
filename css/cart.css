@@ -64,26 +64,48 @@ span {
     margin-left: 30px;
     position: relative;
     bottom: 5px;
+    right: 210px;
+}
+
+.nine-span {
+    right: 10.5em;
+}
+
+.redclass {
+    background-color: crimson;
+    transform: rotateY(360deg);
+    transition: .5s;
+}
+
+input {
+    border: none;
+    color: crimson;
+    font-weight: bold;
+    margin-left: 30px;
+    position: relative;
+    bottom: 5px;
+    font-size: 1em;
+    background-color: transparent;
 }
 
 .heart {
     width: 35px;
     height: auto;
-    margin-left: 143px;
+    left: 16em;
     border: solid black .5px;
     border-radius: 6px;
     padding: 4px 4px;
     position: relative;
-    top:40px;
+    top:50px;
     cursor: pointer;
 }
+
 
 #select {
     width: 40px;
     height: 25px;
     padding: 3px 4px;
-    border: solid gray .5px;
-    border-radius: 5px;
+    border: transparent;
     margin-left: 18px;
     margin-bottom: 25px;
 }
@@ -130,11 +152,6 @@ span {
     margin-right: 133px;
 }
 
-.clickheart {
-    background-color: rgb(218, 8, 8);
-    transition: .5s;
-    transform: rotateY(360deg);
-}
 
 button {
     height: 2.4em;
@@ -144,14 +161,19 @@ button {
     border-radius: 3px;
     font-size: 14px;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 20px;
+    margin-left: 100px;
     cursor: pointer;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.tot-inp {
+    position: relative;
+    background-color: transparent;
+    bottom: 20px;
+    left: 130px;
 }
 
 .tot-span {
-    position: relative;
-    background-color: transparent;
-    bottom: 45px;
-    left: 140px;
+    left: -20px;
+    bottom: 20px;
 }
